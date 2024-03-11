@@ -1,0 +1,82 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 0px) and (max-width: 575px) {
+    .for-hi h1 {
+        display:none !important;
+        position: absolute;
+        top:0px !important;
+        left:0px !important;
+        animation: stroke 4s;
+        stroke-width: 1.2;
+        stroke: #2a1454;
+        font-size: 10px !important;
+        font-weight: 400;
+        color: transparent;
+        display: inline-block;
+        -webkit-text-stroke: 0.1vw #2a1454;
+        font-family: "Russo One", sans-serif;
+        z-index: -1;
+        -webkit-animation: 3s pulsate infinite alternate ease-in-out;
+        animation: 3s pulsate infinite alternate ease-in-out;
+    }
+    .nav-bg {
+        position: fixed;
+        width: 100%;
+        margin-top: 0px !important;
+        z-index: 999;
+    }
+    .nav-link1, .active {
+        font-family: "Sora", sans-serif;
+        color: #ffffff !important;
+        font-size: 15px;
+        font-weight: 500;
+        margin-right: 30px;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .nav-bg {
+        background: #000;
+    }
+    #benner {
+        padding: 148px 0px 0px 0px !important;
+    }
+    .benner-left h1{
+        font-size: 35px !important;
+        font-weight: 900 !important;
+        padding: 0px 0px !important;
+        letter-spacing: 0px !important;
+        
+    }
+    .benner-left h3 {
+        font-size: 22px !important;
+        margin-bottom: 2px !important;
+    }
+    .benner-right img{
+        margin: 0 !important;
+        transform: rotate(0deg) !important;
+        -webkit-transform: rotate(0deg) !important;
+        -moz-transform: rotate(0deg) !important;
+        -ms-transform: rotate(0deg) !important;
+        -o-transform: rotate(0deg) !important;
+        max-width: 40% !important;
+}
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width:767){
+     
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991){
+     
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199){
+    
+}
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and(max-width:1399){
+     
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}

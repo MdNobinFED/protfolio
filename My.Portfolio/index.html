@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Protfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+    <script>
+        jQuery(function($){
+            var $navber = $('.nav-bg');
+            $(window).scroll(function(event){
+                var $current =$(this).scrollTop();
+                if($current > 0 ){
+                    $navber.addClass('navber-color');
+                }else{
+                    $navber.removeClass('navber-color');
+                }
+            });
+        });
+    </script>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".nav-bg">
+    <!-- nav section start -->
+    <nav class="navbar navbar-expand-lg nav-bg">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <img src="image/OIP__1_-removebg-preview.png" alt=""> <span>nobindesign@gnail.com</span> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbartoggler"><i class="bi bi-justify"></i></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-item-4444">
+              <li class="nav-item">
+                <a class="nav-link nav-link1 active" aria-current="page" href="#Service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link1" href="#Works">Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link1" href="#Resume">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link1" href="#Skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link1" href="#Testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link1" href="#Contact">Contact</a>
+              </li>
+            </ul>
+            <button type="button" class="btn hire-me">Hire Me!</button>
+          </div>
+        </div>
+      </nav>
+    <!-- nav section end -->
+    <!-- banner setion start -->
+    <section id="benner">
+        <!-- <div class="for-hi">
+            <h1>HI</h1>
+        </div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="benner-left">
+                        <h3>I am Nobin</h3>
+                        <h1>Web Designer +
+                            Developer </h1>
+                        <p class="order-0">I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
+                        <div class="for-btin-icon">
+                            <button type="button" class="btn hire-me1">Download
+                                CV</button>
+                            <a>
+                                <a href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+                                <a href="#" target="_blank"><i class="bi bi-dribbble"></i></a>
+                                <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://github.com/" target="_blank"><i class="bi bi-github"></i></a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 bg">
+                    <div class="benner-right order-first">
+                        <img src="image/nobin.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row benner-bottom-last">
+                <div class="col-lg-3 col-md-6">
+                    <div class="row benner-bottom">
+                        <div class="col-lg-4">
+                            <h2>1 +</h2>
+                        </div>
+                        <div class="col-lg-6">
+                            <p> Years of</p>
+                            <p>Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="row benner-bottom">
+                        <div class="col-lg-6">
+                            <h2>50+</h2>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Project</p>
+                            <p>Completed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="row benner-bottom">
+                        <div class="col-lg-6">
+                            <h2>1.5K</h2>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Happy</p>
+                            <p>Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="row benner-bottom">
+                        <div class="col-lg-6">
+                            <h2>10 +</h2>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>World</p>
+                            <p>WIde</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner setion end -->
+    <!-- Service section start -->
+    <section id="Service">
+        <div class="container">
+            <div class="service-top">
+                <h2>My Quality Services</h2>
+                <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
+            </div>
+            <div class="row justify-content-between service-meddle">
+                <div class="col-lg-4 col-md-5"> <h3><span>01</span> &nbsp; &nbsp; Web Design</h3>
+                    </div>
+                <div class="col-lg-6 col-md-6">
+                    <p>     I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
+                </div>
+                <div class="col-lg-1 col-md-1 icona">
+                    <a href="#"><i class="bi bi-arrow-right iconaa"></i></a>
+                </div>
+            </div>
+
+            <div class="row justify-content-between service-meddle">
+                <div class="col-lg-4 col-md-5">
+                     <h3><span>02</span> &nbsp; &nbsp; UI/UX Design</h3>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <p>        I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
+                </div>
+                <div class="col-lg-1 col-md-1">
+                    <a href="#"><i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="row justify-content-between service-meddle">
+                <div class="col-lg-4 col-md-5">
+                     <h3><span>03</span> &nbsp; &nbsp; Graphics Design</h3>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <p>  I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
+                </div>
+                <div class="col-lg-1 col-md-1">
+                    <a href="#"><i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="row justify-content-between service-meddle">
+                <div class="col-lg-4 col-md-5"> <h3><span>04</span> &nbsp; &nbsp; Branding Design</h3>
+                    </div>
+                <div class="col-lg-6 col-md-6">
+                    <p>       I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
+                </div>
+                <div class="col-lg-1 col-md-1">
+                    <a href="#"><i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service section end -->
+    <!-- Works section start -->
+    <section id="Works">
+        <div class="container">
+            <div class="work-top">
+                <h2>My Recent Works</h2>
+                <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
+            </div>
+            <div class="work-bottom">
+                <div class="d-flex justify-content-center work-bottom-top">
+                    <ul class="nav nav-2222 nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active nav-tab-text" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link nav-tab-text" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">UX/UI</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link nav-tab-text" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Branding</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link nav-tab-text" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-Apps" type="button" role="tab" aria-controls="pills-Apps" aria-selected="false">Apps</button>
+                          </li>
+                    </ul>
+                </div>
+
+                  <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="row">
+                            <div class="col-lg-6  pe-4">
+                                <div class="all-img">
+                                    <img src="image/1.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ps-4">
+                                <div class="all-img">
+                                    <img src="image/2.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row all-row">
+                            <div class="col-lg-6 pe-4">
+                                <div class="all-img">
+                                    <img src="image/3.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ps-4">
+                                <div class="all-img">
+                                    <img src="image/4.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                                <div class="row">
+                            <div class="col-lg-6 pe-4">
+                                <div class="all-img">
+                                    <img src="image/1.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ps-4">
+                                <div class="all-img">
+                                    <img src="image/2.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row all-row">
+                            <div class="col-lg-6 pe-4">
+                                <div class="all-img">
+                                    <img src="image/3.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ps-4">
+                                <div class="all-img">
+                                    <img src="image/4.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                                                <div class="row">
+                            <div class="col-lg-6 pe-4">
+                                <div class="all-img">
+                                    <img src="image/1.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ps-4">
+                                <div class="all-img">
+                                    <img src="image/2.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row all-row">
+                            <div class="col-lg-6 pe-4">
+                                <div class="all-img">
+                                    <img src="image/3.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ps-4">
+                                <div class="all-img">
+                                    <img src="image/4.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-Apps" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                                                <div class="row">
+                            <div class="col-lg-6 pe-4">
+                                <div class="all-img">
+                                    <img src="image/1.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ps-4">
+                                <div class="all-img">
+                                    <img src="image/2.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row all-row">
+                            <div class="col-lg-6 pe-4">
+                                <div class="all-img">
+                                    <img src="image/3.jpg" alt="">
+                                    <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 ps-4">
+                                <div class="all-img">
+                                    <img src="image/4.jpg" alt="">
+                                          <div class="img-overly">
+                                        <div class="overly-text-main d-flex align-items-center">
+                                            <div class="overly-text">
+                                                <a href="#">Deloitte</a>
+                                                <p>Project was about precision and information.</p>
+                                            </div>
+                                            <div class="overly-icon">
+                                                <i class="bi bi-arrow-up-right"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- Works section end -->
+    <!-- Resume section start -->
+    <section id="Resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pe-5">
+                    <div class="resume-left">
+                        <h2>My Experience</h2>
+                        <div class="resume-cad">
+                            <div class="card bgtransparent">
+                                <div class="card-body">
+                                  <h6 class="card-title">2022 - Present</h6>
+                                  <h5 class="card-subtitle mb-2">LEAD DEVELOPER</h5>
+                                  <p class="card-text">Blockdots, London</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="resume-cad">
+                            <div class="card bgtransparent">
+                                <div class="card-body">
+                                  <h6 class="card-title">2022 - Present</h6>
+                                  <h5 class="card-subtitle mb-2">FULL STACK WEB DEVELOPER</h5>
+                                  <p class="card-text">Blockdots, London</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="resume-cad">
+                            <div class="card bgtransparent">
+                                <div class="card-body">
+                                  <h6 class="card-title">2022 - Present</h6>
+                                  <h5 class="card-subtitle mb-2">UI DESIGNER</h5>
+                                  <p class="card-text">Blockdots, London</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="resume-cad">
+                            <div class="card bgtransparent">
+                                <div class="card-body">
+                                  <h6 class="card-title">2022 - Present</h6>
+                                  <h5 class="card-subtitle mb-2">JUNIOR GRAPHICS DESIGNER</h5>
+                                  <p class="card-text">Blockdots, London</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-5">
+                    <div class="resume-right">
+                        <h2>My Education</h2>
+                        <div class="resume-cad">
+                            <div class="card bgtransparent">
+                                <div class="card-body">
+                                  <h6 class="card-title">2022 - Present</h6>
+                                  <h5 class="card-subtitle mb-2">PROGRAMMING COURSE</h5>
+                                  <p class="card-text">Blockdots, London</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="resume-cad">
+                            <div class="card bgtransparent">
+                                <div class="card-body">
+                                  <h6 class="card-title">2022 - Present</h6>
+                                  <h5 class="card-subtitle mb-2">GRAPHIC DESIGN COURSE</h5>
+                                  <p class="card-text">Blockdots, London</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="resume-cad">
+                            <div class="card bgtransparent">
+                                <div class="card-body">
+                                  <h6 class="card-title">2022 - Present</h6>
+                                  <h5 class="card-subtitle mb-2">WEB DESIGN COURSE</h5>
+                                  <p class="card-text">Blockdots, London</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="resume-cad">
+                            <div class="card bgtransparent">
+                                <div class="card-body">
+                                  <h6 class="card-title">2022 - Present</h6>
+                                  <h5 class="card-subtitle mb-2">DESIGN & TECHNOLOGY</h5>
+                                  <p class="card-text">Blockdots, London</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Resume section end -->
+    <!-- Skills section start -->
+    <section id="Skills">
+        <div class="container">
+            <div class="skills-main">
+                <h2>My Skills</h2>
+                <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
+            </div>
+            <div class="row skill-bottom">
+                <div class="col-lg-2">
+                    <div class="card skill-lable">
+                        <div class="card-img-top">
+                            <i class="fa-brands fa-figma"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text skill-text">70%</p>
+                        </div>
+                    </div>
+                    <div class="skill-le-bttom">
+                        <h4>Figma</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card skill-lable">
+                        <div class="card-img-top">
+                            <i class="fa-brands fa-sketch"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text skill-text">10%</p>
+                        </div>
+                    </div>
+                    <div class="skill-le-bttom">
+                        <h4>Sketch</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card skill-lable">
+                        <div class="card-img-top">
+                            <i class="fa-brands fa-wordpress"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text skill-text">5%</p>
+                        </div>
+                    </div>
+                    <div class="skill-le-bttom">
+                        <h4>WordPess</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card skill-lable">
+                        <div class="card-img-top">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text skill-text">2%</p>
+                        </div>
+                    </div>
+                    <div class="skill-le-bttom">
+                        <h4>React</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card skill-lable">
+                        <div class="card-img-top">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text skill-text">92%</p>
+                        </div>
+                    </div>
+                    <div class="skill-le-bttom">
+                        <h4>css</h4>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="card skill-lable">
+                        <div class="card-img-top">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-text skill-text">10%</p>
+                        </div>
+                    </div>
+                    <div class="skill-le-bttom">
+                        <h4>JavaScript</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills section end -->
+    <!-- Testimonials section start -->
+    <section id="Testimonials"></section>
+    <!-- Testimonials section end -->
+    <!-- Contact section start -->
+    <section id="Contact"></section>
+    <!-- Contact section end -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
